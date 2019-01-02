@@ -1,8 +1,7 @@
 <?php
-session_start();
-
-include_once 'db1.php';
-$err = false;
+    session_start();
+    include_once 'db1.php';
+    $err = false;
     if (!$conn) {
         die("Login failed: " . mysqli_connect_error());
     }
@@ -13,8 +12,6 @@ $err = false;
     $mypassword=$_POST['pwd'];
     $myusername = stripslashes($myusername);
     $mypassword = stripslashes($mypassword);
-    //$myusername = mysqli_real_escape_string($myusername);
-    //$mypassword = mysqli_real_escape_string($mypassword);
     $hpwd = md5($mypassword);
     $sql="select * from $tbl_name1 where paswd='$hpwd' AND uname='$myusername';";
     $result = mysqli_query($conn,$sql);
@@ -27,6 +24,5 @@ $err = false;
         $err =true;
         header("Location: ../login.php");
     }
-mysqli_close($conn);
-
+    mysqli_close($conn);
 ?>
