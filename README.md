@@ -2,7 +2,7 @@
 Today almost every service platform is digital specially the shoping stores, but the Medical Stores remain as it is. This 
 Web-App will help the Medical Store owners to run there buisness online easily and successfully.
 
-## Getting Started
+## Getting Started :pill:
 One who is wishing to use this just has to download the whole directory, then create your database as mention in the 
 **database.pdf** file and test it.
 
