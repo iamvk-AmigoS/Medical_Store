@@ -32,16 +32,13 @@ Finished product should look like this.
 
 Home Page
 
-![Image of Home]
-(https://github.com/iamvk-AmigoS/Medical_Store/tree/master/img/Home.png)
+![](img/Home.png)
 
 Admin Page
-![Iamge of admin]
-(https://github.com/iamvk-AmigoS/Medical_Store/tree/master/img/Admin.png)
+![](img/Admin.png)
 
 Requesting New Medicine
-![Image of request]
-(https://github.com/iamvk-AmigoS/Medical_Store/tree/master/img/Request.png)
+![](img/Request.png)
 
 Though it is used for a single shop but with some advancement it can be made for a compelte city. Related to which codes will
 be added later.
